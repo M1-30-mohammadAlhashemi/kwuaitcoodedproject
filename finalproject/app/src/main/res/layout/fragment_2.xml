@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/os" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="os Operating Systems"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/allan"
+        android:scrollHorizontally="false"
+        android:text="    An operating system or OS is a software installed on a computer's hard drive that enables the computer hardware to communicate and operate with the computer software. Without a computer operating system, a computer and software programs would be useless. The picture shows Microsoft Windows XP in its original packaging."
+        android:textAlignment="viewStart"
+        android:textColor="#FDFCFC"
+        android:textDirection="firstStrong"
+        android:textIsSelectable="true"
+        android:textSize="22dp"
+        android:textStyle="bold|italic"
+        tools:ignore="RtlCompat" />
+
+
+</LinearLayout>

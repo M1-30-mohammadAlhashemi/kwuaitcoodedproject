@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.Fragment1" >
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/windows" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Windows Operating Systems"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/allan"
+        android:scrollHorizontally="false"
+        android:text="Microsoft Windows (also referred to as Windows or Win) is a graphical operating system developed and published by Microsoft. It provides a way to store files, run software, play games, watch videos, and connect to the Internet. "
+        android:textAlignment="viewStart"
+        android:textColor="#FDFCFC"
+        android:textDirection="firstStrong"
+        android:textIsSelectable="true"
+        android:textSize="22dp"
+        android:textStyle="bold|italic"
+        tools:ignore="RtlCompat" />
+
+
+
+
+
+</LinearLayout>
